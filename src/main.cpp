@@ -17,6 +17,7 @@
 #define LIGHT GxEPD_LIGHTGREY
 #define WHITE GxEPD_WHITE
 
+// AZ_Delivey MINI D1 ESP32
 GxEPD2_4G<GxEPD2_750_T7, GxEPD2_750_T7::HEIGHT / 2> display(GxEPD2_750_T7(/*CS=5*/ 26, /*DC=*/25, /*RST=*/33, /*BUSY=*/27));
 
 const char HelloWorld[] = "Hello World!";
